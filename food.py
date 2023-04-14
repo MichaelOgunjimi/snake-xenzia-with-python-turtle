@@ -1,7 +1,6 @@
 from turtle import Turtle
 import random
 
-POSITION = (random.randint(-280, 280), random.randint(-280, 280))
 COLOR = ['Red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 
 
@@ -16,5 +15,6 @@ class Food(Turtle):
         self.speed("fastest")
 
     def refresh(self):
+        position = (random.randint(-280, 280), random.randint(-280, 280))
         self.color(random.choice(COLOR))
-        self.goto(POSITION)
+        self.goto(position)

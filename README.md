@@ -19,7 +19,7 @@ This is a classic implementation of the Snake Xenzia game using Python Turtle gr
 ## Installation
 1. Clone or download the repository to your local machine.
 2. Ensure that Python 3.x is installed on your machine. If not, download and install it from the official Python website (https://www.python.org/).
-3. Run the game.py file using a Python interpreter or an integrated development environment (IDE) that supports Python.
+3. Run the snake.py file using a Python interpreter or an integrated development environment (IDE) that supports Python.
 4. Enjoy playing Snake Xenzia!
 
 ## How to Play
